@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>
+      Meu formulário
+    </h1>
+    <form action"#" method="post>
+       <label for="proprietário">Proprietário:</label>
+        <input type="text" name="proprietário"
+          id="proprietário" size=50 maxlenght=100
+           placeholder="(insira o nome do proprietário)" />
+<br />
+<label for="matricula">Matrícula</label>
+  <input type="number" size="10" maxlenght="7"
+    name="matricula" id="matricula" id="matricula" placeholder="Insira número"/>
+ <br />
+ <br />
+  <button type="submit">Registrar</button>
+   </form>
+  </body>
+   </html>                                            
