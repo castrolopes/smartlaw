@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>
+      Meu formulário
+    </h1>
+    <form name="formImovel" id="formImovel" action="#" method="post">
+       <label for="proprietario">Proprietario:</label>
+        <input type="text" name="proprietario" id="proprietario" size=50 maxlenght=100 placeholder="(insira o nome do proprietario)" />
+        <br />
+        <label for="matricula">Matrícula</label>
+        <input type="number" size="10" maxlenght="7" name="matricula" id="matricula" id="matricula" placeholder="Insira numero"/>
+        <br />
+        <br />
+        <button type="submit" onclick="registraImovel()">Registrar</button>
+        <button type="reset">Recomeçar</button>
+   </form>
+   <script>
+   function registraImovel() {
+        event.preventDefault();      
+        var form = document.formImovel;
+       alert(form.proprietario.value);
+   }
+   </script>
+  </body>
+   </html>                                            
